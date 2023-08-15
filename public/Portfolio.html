@@ -1,0 +1,78 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christine Jose's Portfolio</title>
+</head>
+<style>
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 100px;
+        margin: 50px;
+    }
+    
+    .hero {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin: 10px;
+        padding: 10px
+    }
+    
+        .hero2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 3;
+    }
+    
+    
+
+</style>
+<body>
+    <div class="container">
+    <div class="hero"><h1>My name is Christine</h1>
+    <h2>I am a Web developer</h2>
+    <a href="./public/about.html"><h3>About Me</h3></a><a href="./public/contact.html"><h3>Contact Me</h3></a>
+    
+    <hr />
+</div>
+    <div class="grid-container">
+        <h3 class="hero">Here is some of the things I have made:</h3>
+      <div class="grid-item">
+        <a href="./public/Top5websites.html"><h3>Href Linking Project</h3></a>
+        <img src="../Images/Top5websites.PNG" alt="List of top 5 websites" width="200">
+    </div>
+    <div class="grid-item">
+        <a href="./public/Top5movies.html"><h3>Movie Ranking Project</h3>
+        <img src="../Images/top5movies.PNG" alt="top 5 Movies" width =200></a>
+    </div>
+    <div class="grid-item">
+        <a href="./public/birthday-invite.html"><h3>Birthday Invite Project</h3>
+        <img src="../Images/Birthday-invite.PNG" alt="image of birthday party invite" width=200></a>
+    </div>
+    <div class="grid-item">
+        <a href="./public/birthday-invite.html"><h3>Birthday Invite Project</h3>
+        <img src="../Images/Birthday-invite.PNG" alt="image of birthday party invite" width=200></a>
+    </div>
+</div>
+</body>
+</html>
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
